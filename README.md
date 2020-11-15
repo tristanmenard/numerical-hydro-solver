@@ -26,5 +26,5 @@ Code: hydro_solver.py
 
 When the amplitude (a) of the Gaussian perturbation is smaller than the base density level of the fluid (rho0), there are density waves that travel outwards from the perturbation that are followed by smaller waves or ripples.
 When the amplitude (a) of the Gaussian perturbation is greater than the base density level of the fluid (rho0), there is a sharp wavefront, or shock, that travels outwards from the pertubation. The shock is not followed by smaller ripples.
-By running the hydro solver with a variety of initial parameter settings, I found that the sound speed (cs) is the parameter that most significantly affects the width of the shock.
-To a lesser degree, the ratio of the perturbation amplitude to the base fluid density (a/rho0) also affects the width of the shock.
+By running the hydro solver with a variety of initial parameter settings, I found that the sound speed (cs) is the parameter that most significantly affects the width of the shock. When the sound speed is large, the shock wave propagates faster and the width of the shock is larger.
+To a lesser degree, the ratio of the perturbation amplitude to the base fluid density (a/rho0) also affects the width of the shock. Similarly to the sound speed, when the ratio of a/rho0 is larger the shock wave propagates faster and the width of the shock is larger.
